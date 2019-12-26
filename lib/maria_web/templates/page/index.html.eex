@@ -1,0 +1,25 @@
+<section class="section has-background-primary">
+  <div class="container is-fluid">
+    <h1 class="title">Dashboard</h1>
+    <div class="columns">
+      <div class="column">
+        <h3 class="title is-5">Explorando</h3>
+        <%= render(MariaWeb.PageView, "_box.html", name: "name")%>
+        <%= render(MariaWeb.PageView, "_box.html", name: "name")%>
+        <%= render(MariaWeb.PageView, "_box.html", name: "name")%>
+      </div>
+      <div class="column">
+        <h1 class="title is-5">Seleccionado</h1>
+        <%= render(MariaWeb.PageView, "_box.html", name: "name")%>
+        <%= render(MariaWeb.PageView, "_box.html", name: "name")%>
+      </div>
+      <div class="column">
+        <h1 class="title is-5">Pagado</h1>
+      </div>
+      <div class="column">
+        <h1 class="title is-5">Enviado</h1>
+        <%= render(MariaWeb.PageView, "_box.html", name: "name")%>
+      </div>
+    </div>
+  </div>
+</section>
