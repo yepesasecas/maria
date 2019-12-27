@@ -1,0 +1,40 @@
+<section class="section">
+  <div class="container is-fluid">
+    <h1 class="title">Menu</h1>
+    <div class="tabs">
+      <ul>
+        <li class="is-active"><a>Categories</a></li>
+        <li><%= link("Items", to: "/menu/item", class: "navbar-item")%></li>
+      </ul>
+    </div>
+
+    <section class="buttons is-right">
+      <button class="button is-primary">
+        <span class="icon"><i class="fas fa-plus"></i></span>
+        <span>New</span>
+      </button>
+    </section>
+
+    <table class="table is-striped is-hoverable is-fullwidth">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Descripcion</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Pizzas</td>
+          <td>Pizzas artesanales, hechas a mano.</td>
+          <td>Eliminar, Editar</td>
+        </tr>
+        <tr>
+          <td>Bebidas</td>
+          <td>Bebidas frias y calientes.</td>
+          <td>Eliminar, Editar</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>

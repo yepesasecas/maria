@@ -1,0 +1,87 @@
+<section class="section">
+  <div class="container is-fluid">
+    <h1 class="title">Menu</h1>
+    <div class="tabs">
+      <ul>
+        <li><%= link("Categories", to: "/menu/category", class: "navbar-item")%></li>
+        <li class="is-active"><a>Items</a></li>
+      </ul>
+    </div>
+
+    <section class="buttons is-right">
+      <button class="button is-primary">
+        <span class="icon"><i class="fas fa-plus"></i></span>
+        <span>New</span>
+      </button>
+    </section>
+
+    <table class="table is-striped is-hoverable is-fullwidth">
+      <thead>
+        <tr>
+          <th>Imagen</th>
+          <th>Category</th>
+          <th>Nombre</th>
+          <th>Descripcion</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <figure class="image is-32x32">
+              <img src="https://media.istockphoto.com/photos/pepperoni-pizza-italian-pizza-on-white-background-picture-id804291810?k=6&m=804291810&s=612x612&w=0&h=DuLrNMozwV1hgQesN2YghlehYaKZ_VxMv2keZ8b_k9g=">
+            </figure>
+          </td>
+          <td>Pizza</td>
+          <td>Pepperoni</td>
+          <td>Pizzas artesanales, hechas a mano.</td>
+          <td>Eliminar, Editar</td>
+        </tr>
+        <tr>
+          <td>
+            <figure class="image is-32x32">
+              <img src="https://media.istockphoto.com/photos/pepperoni-pizza-italian-pizza-on-white-background-picture-id804291810?k=6&m=804291810&s=612x612&w=0&h=DuLrNMozwV1hgQesN2YghlehYaKZ_VxMv2keZ8b_k9g=">
+            </figure>
+          </td>
+          <td>Pizza</td>
+          <td>Margarita</td>
+          <td>Pizzas artesanales, hechas a mano.</td>
+          <td>Eliminar, Editar</td>
+        </tr>
+        <tr>
+          <td>
+            <figure class="image is-32x32">
+              <img src="https://media.istockphoto.com/photos/pepperoni-pizza-italian-pizza-on-white-background-picture-id804291810?k=6&m=804291810&s=612x612&w=0&h=DuLrNMozwV1hgQesN2YghlehYaKZ_VxMv2keZ8b_k9g=">
+            </figure>
+          </td>
+          <td>Pizza</td>
+          <td>Hawaiana</td>
+          <td>Pizzas artesanales, hechas a mano.</td>
+          <td>Eliminar, Editar</td>
+        </tr>
+        <tr>
+          <td>
+            <figure class="image is-32x32">
+              <img src="https://media.istockphoto.com/photos/pepperoni-pizza-italian-pizza-on-white-background-picture-id804291810?k=6&m=804291810&s=612x612&w=0&h=DuLrNMozwV1hgQesN2YghlehYaKZ_VxMv2keZ8b_k9g=">
+            </figure>
+          </td>
+          <td>Bebidas</td>
+          <td>Coca Cola</td>
+          <td>Coca Cola de 250ml</td>
+          <td>Eliminar, Editar</td>
+        </tr>
+        <tr>
+          <td>
+            <figure class="image is-32x32">
+              <img src="https://media.istockphoto.com/photos/pepperoni-pizza-italian-pizza-on-white-background-picture-id804291810?k=6&m=804291810&s=612x612&w=0&h=DuLrNMozwV1hgQesN2YghlehYaKZ_VxMv2keZ8b_k9g=">
+            </figure>
+          </td>
+          <td>Bebidas</td>
+          <td>Agua San Mateo</td>
+          <td>Agua San Mateo. Sin gas. 250ml</td>
+          <td>Eliminar, Editar</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>

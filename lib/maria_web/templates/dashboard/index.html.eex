@@ -4,21 +4,21 @@
     <div class="columns">
       <div class="column">
         <h3 class="title is-5">Explorando</h3>
-        <%= render(MariaWeb.PageView, "_box.html", name: "name")%>
-        <%= render(MariaWeb.PageView, "_box.html", name: "name")%>
-        <%= render(MariaWeb.PageView, "_box.html", name: "name")%>
+        <%= render(MariaWeb.DashboardView, "_box.html", name: "name")%>
+        <%= render(MariaWeb.DashboardView, "_box.html", name: "name")%>
+        <%= render(MariaWeb.DashboardView, "_box.html", name: "name")%>
       </div>
       <div class="column">
         <h1 class="title is-5">Seleccionado</h1>
-        <%= render(MariaWeb.PageView, "_box.html", name: "name")%>
-        <%= render(MariaWeb.PageView, "_box.html", name: "name")%>
+        <%= render(MariaWeb.DashboardView, "_box.html", name: "name")%>
+        <%= render(MariaWeb.DashboardView, "_box.html", name: "name")%>
       </div>
       <div class="column">
         <h1 class="title is-5">Pagado</h1>
       </div>
       <div class="column">
         <h1 class="title is-5">Enviado</h1>
-        <%= render(MariaWeb.PageView, "_box.html", name: "name")%>
+        <%= render(MariaWeb.DashboardView, "_box.html", name: "name")%>
       </div>
     </div>
   </div>

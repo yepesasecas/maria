@@ -15,7 +15,7 @@
   <div id="navbarBasicExample" class="navbar-menu">
     <div class="navbar-start">
       <%= link("Dashboard", to: "/", class: "navbar-item")%>
-      <%= link("Menu", to: "/menu", class: "navbar-item")%>
+      <%= link("Menu", to: "/menu/category", class: "navbar-item")%>
       <a class="navbar-item">
         Analytics
       </a>
@@ -24,7 +24,7 @@
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          <a class="button is-primary">
+          <a class="button">
             <strong>pide una pizza!</strong>
           </a>
         </div>

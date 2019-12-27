@@ -16,8 +16,10 @@ defmodule MariaWeb.Router do
   scope "/", MariaWeb do
     pipe_through :browser
 
-    get "/", PageController, :index
-    get "/menu", MenuController, :index
+    get "/", DashboardController, :index
+    get "/dashboard", DashboardController, :index
+    get "/menu/category", MenuCategoryController, :index
+    get "/menu/item", MenuItemController, :index
   end
 
   # Other scopes may use custom stacks.

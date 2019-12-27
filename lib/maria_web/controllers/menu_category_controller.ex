@@ -1,4 +1,4 @@
-defmodule MariaWeb.MenuController do
+defmodule MariaWeb.MenuCategoryController do
   use MariaWeb, :controller
 
   def index(conn, _params) do
